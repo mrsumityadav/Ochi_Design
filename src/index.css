@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body::-webkit-scrollbar {
+  width: 0;
+}
+
+@font-face {
+  font-family: grotesk;
+  src: url(../public/FoundersGrotesk-Semibold.ttf);
+}
+
+@font-face {
+  font-family: neue;
+  src: url(../public/NeueMontreal-Regular.ttf);
+}
+
+@font-face {
+  font-family: ico;
+  src: url(../public/icomoon.ttf);
+}
+
+* {
+  font-family: neue;
+  color: #212121;
+}
+
+.navbar {
+  transition: top 0.3s ease-in-out; /* Adjust timing and easing as needed */
+}
